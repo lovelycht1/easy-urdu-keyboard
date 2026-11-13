@@ -1,0 +1,13 @@
+آسان اردو کی بورڈ — GitHub APK بنانے کا طریقہ
+
+1) اس ZIP کو Extract کریں۔
+2) github.com پر اکاؤنٹ بنا کر New repository بنائیں۔
+3) تمام extracted فائلیں repository کی root میں upload کریں۔ پوشیدہ .github فولڈر اور اس کے اندر workflows/build-apk.yml لازمی ہے۔
+4) Actions ٹیب کھولیں۔
+5) Build Easy Urdu Keyboard APK منتخب کریں۔
+6) Run workflow دبائیں۔
+7) کامیابی کے بعد run کے نیچے Artifacts سے EasyUrduKeyboard-debug-apk ڈاؤنلوڈ کریں۔
+8) Artifact ZIP extract کرکے EasyUrduKeyboard-debug.apk موبائل میں انسٹال کریں۔
+9) App کھولیں، Enable Keyboard اور پھر Select Keyboard دبائیں۔
+
+نوٹ: یہ native keyboard starter build ہے۔ Phonetic engine بنیادی dictionary-based ہے، مکمل Urdu transliteration نہیں۔
